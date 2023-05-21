@@ -7,21 +7,40 @@ Glitch art is a futuristic and aesthetic code theme that is inspired by the beau
 
 - JupyterLab >= 4.0.0b0
 
-## Install
+## Installation
+1. Install Dependencies: Install the extension's dependencies using npm:
 
-To install the extension, execute:
+   ```bash
+   npm install
+   ```
 
-```bash
-pip install glitch_art
-```
+2. Build the Extension: Build the extension using npm:
 
-## Uninstall
+   ```bash
+   npm run build
+   ```
 
-To remove the extension, execute:
+   This command bundles the necessary files and prepares the extension for use.
 
-```bash
-pip uninstall glitch_art
-```
+3. Activate the Extension: Activate your extension using the following command:
+
+   ```bash
+   jupyter labextension link .
+   ```
+
+   This command creates a symbolic link to your extension, allowing JupyterLab to recognize and use it.
+
+4. I if that does not work, try:
+
+   ```bash
+   pip install -e "."
+   ```
+
+   JupyterLab will now use your custom extension. You can enable and use the features provided by your extension within JupyterLab.
+
+Remember to rebuild the extension using `npm run build` whenever you make changes to the extension's source code.
+
+That's it! You've created a JupyterLab extension using a Cookiecutter template. You can further customize and develop your extension by modifying the generated files according to your requirements.
 
 ## Contributing
 
