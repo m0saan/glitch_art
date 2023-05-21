@@ -38,8 +38,6 @@ Glitch art is a futuristic and aesthetic code theme that is inspired by the beau
 
    JupyterLab will now use your custom extension. You can enable and use the features provided by your extension within JupyterLab.
 
-Remember to rebuild the extension using `npm run build` whenever you make changes to the extension's source code.
-
 That's it! You've created a JupyterLab extension using a Cookiecutter template. You can further customize and develop your extension by modifying the generated files according to your requirements.
 
 ## Contributing
